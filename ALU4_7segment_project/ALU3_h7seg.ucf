@@ -1,0 +1,60 @@
+
+# PlanAhead Generated physical constraints  for ALU3
+
+NET "mode[0]"  LOC = "T10" ;  
+NET "mode[1]"  LOC = "T9"  ;  
+
+NET "right[0]" LOC = "V9"  ;   
+NET "right[1]" LOC = "M8" ;   
+NET "right[2]" LOC = "N8" ; 
+
+NET "left[0]"  LOC = "U8"  ;   
+NET "left[1]"  LOC = "V8" ;  
+NET "left[2]"  LOC = "T5" ;   
+
+# PlanAhead Generated IO constraints 
+
+NET "mode[0]"  IOSTANDARD = "LVCMOS33";  
+NET "mode[1]"  IOSTANDARD = "LVCMOS33";  
+
+NET "right[0]" IOSTANDARD = "LVCMOS33";   
+NET "right[1]" IOSTANDARD = "LVCMOS33";   
+NET "right[2]" IOSTANDARD = "LVCMOS33"; 
+
+NET "left[0]"  IOSTANDARD = "LVCMOS33";   
+NET "left[1]"  IOSTANDARD = "LVCMOS33";  
+NET "left[2]"  IOSTANDARD = "LVCMOS33";  
+
+# PlanAhead Generated physical constraints for 7 segment
+
+NET "an[0]" LOC = N16;
+NET "an[1]" LOC = N15;
+NET "an[2]" LOC = P18;
+NET "an[3]" LOC = P17;
+
+NET "dp"  LOC = M13; 
+
+NET "g_to_a[0]" LOC = T17;
+NET "g_to_a[1]" LOC = T18;
+NET "g_to_a[2]" LOC = U17;
+NET "g_to_a[3]" LOC = U18;
+NET "g_to_a[5]" LOC = N14;
+NET "g_to_a[4]" LOC = M14;
+NET "g_to_a[6]" LOC = L14;
+
+# PlanAhead Generated IO constraints 
+
+NET "an[0]" IOSTANDARD = LVCMOS33;
+NET "an[1]" IOSTANDARD = LVCMOS33;
+NET "an[2]" IOSTANDARD = LVCMOS33;
+NET "an[3]" IOSTANDARD = LVCMOS33;
+
+NET "dp"   IOSTANDARD = LVCMOS33;
+
+NET "g_to_a[0]" IOSTANDARD = LVCMOS33;
+NET "g_to_a[1]" IOSTANDARD = LVCMOS33;
+NET "g_to_a[2]" IOSTANDARD = LVCMOS33;
+NET "g_to_a[3]" IOSTANDARD = LVCMOS33;
+NET "g_to_a[4]" IOSTANDARD = LVCMOS33;
+NET "g_to_a[5]" IOSTANDARD = LVCMOS33;
+NET "g_to_a[6]" IOSTANDARD = LVCMOS33;
